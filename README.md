@@ -8,6 +8,9 @@ docker compose -f infra/compose.yaml up -d
 Derrubar o banco de dados
 docker compose -f infra/compose.yaml down
 
+Vizualiza quais containers estão rodando
+docker ps --all
+
 Iniciar o backend
 npm run dev
 
